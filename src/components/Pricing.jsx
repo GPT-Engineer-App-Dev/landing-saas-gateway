@@ -7,8 +7,7 @@ const PricingTier = ({ name, price, features }) => (
         <p className="text-3xl font-bold mb-4">${price}<span className="text-sm font-normal">/month</span></p>
         <ul className="mb-6 text-left">
             {features.map((feature, index) => (
-                <li key={index} className="mb-2 flex items-center">
-                    <CheckCircle className="text-green-500 mr-2 h-4 w-4" />
+                <li key={index} className="mb-2">
                     {feature}
                 </li>
             ))}

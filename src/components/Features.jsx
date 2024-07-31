@@ -1,10 +1,7 @@
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
 
 const Feature = ({ title, description }) => (
-    <div className="flex items-start mb-6">
-        <CheckCircle className="text-green-500 mr-4 mt-1 flex-shrink-0" />
-        <div>
+    <div className="mb-6">
             <h3 className="text-lg font-semibold mb-2">{title}</h3>
             <p className="text-gray-600">{description}</p>
         </div>
